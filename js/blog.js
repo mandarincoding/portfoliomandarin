@@ -77,8 +77,8 @@ $(function () {
       $(".page3").css("opacity", "0");
       $(".page4").css("opacity", "1");
       $(".page4").html('<div class="go1"><a href="http://mandarincoding7.dothome.co.kr/power"><img  class="popUp1" src="./image/캐릭터소개.jpg" alt="파워퍼프걸"></a></div>');
-      $(".page4").append('<div class="go2"><a href="http://mandarincoding7.dothome.co.kr/alive"><img class="popUp2" src="./image/얼라이브.jpg" alt="얼라이브"></a></div>');
-      $(".page4").append('<div class="go3"><a href="http://mandarincoding7.dothome.co.kr/cakehouse"><img class="popUp3" src="./image/케이크하우스.jpg" alt="케이크하우스"></a></div>');
+      $(".page4").append('<div class="go2"><a href="https://mandarincoding.github.io/alive/"><img class="popUp2" src="./image/얼라이브.jpg" alt="얼라이브"></a></div>');
+      $(".page4").append('<div class="go3"><a href="https://mandarincoding.github.io/cakehouse/"><img class="popUp3" src="./image/케이크하우스.jpg" alt="케이크하우스"></a></div>');
     }
   });
   $(".go1").hover(
