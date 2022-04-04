@@ -40,12 +40,12 @@ $(function () {
       $(".page2").html('<div class="movingText testMove1">KIM GYURI</div>');
       $(".page2").append('<div class="movingText testMove2">1996.05.16</div>');
       $(".page2").append(
-        '<div class="movingText testMove3">010.5913.7294</div>'
+        '<div class="movingText testMove3">ISFP</div>'
       );
       $(".page2").append(
         '<div class="movingText testMove4">mandarincoding@gmail.com</div>'
       );
-      $(".page2").append('<div class="movingText testMove5">skill</div>');
+      $(".page2").append('<div class="movingText testMove5">010.5913.7294</div>');
       $(".testMove1").animate({ right: "100" }, 1500);
       $(".testMove2").delay(1000).animate({ right: "100" }, 1500);
       $(".testMove3").delay(2000).animate({ right: "100" }, 1500);
@@ -65,10 +65,10 @@ $(function () {
       $(".page3").append('<div class="jqueryName">jquery</div><div class="skillAll skill4"></div>');
       $(".page3").append('<div class="photoName">photoshop</div><div class="skillAll skill5"></div>');
       $(".skill1").animate({ width: "90%" }, 1500);
-      $(".skill2").delay(1000).animate({ width: "40%" }, 1500);
-      $(".skill3").delay(2000).animate({ width: "50%" }, 1500);
-      $(".skill4").delay(3000).animate({ width: "10%" }, 1500);
-      $(".skill5").delay(4000).animate({ width: "70%" }, 1500);
+      $(".skill2").delay(1000).animate({ width: "60%" }, 1500);
+      $(".skill3").delay(2000).animate({ width: "90%" }, 1500);
+      $(".skill4").delay(3000).animate({ width: "90%" }, 1500);
+      $(".skill5").delay(4000).animate({ width: "50%" }, 1500);
       
     } else if (Math.abs(rota % 360) == 270) {
       // 270도
